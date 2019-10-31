@@ -1,0 +1,4 @@
+service hwsched-1-0 /vendor/bin/hw/vendor.huawei.hardware.hwsched@1.0-service
+    class hal
+	user root
+    group system
