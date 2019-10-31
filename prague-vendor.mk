@@ -43,11 +43,9 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/lib/egl,$(TARGET_COPY_OUT_VENDOR)/lib/egl) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/lib/hw,$(TARGET_COPY_OUT_VENDOR)/lib/hw) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/lib/hwcam,$(TARGET_COPY_OUT_VENDOR)/lib/hwcam) \
-    $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/lib/mediadrm,$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/lib/soundfx,$(TARGET_COPY_OUT_VENDOR)/lib/soundfx) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/lib64,$(TARGET_COPY_OUT_VENDOR)/lib64) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/lib64/egl,$(TARGET_COPY_OUT_VENDOR)/lib64/egl) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/lib64/hw,$(TARGET_COPY_OUT_VENDOR)/lib64/hw) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/lib64/hwcam,$(TARGET_COPY_OUT_VENDOR)/lib64/hwcam) \
-    $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/lib64/mediadrm,$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/lib64/soundfx,$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx)
