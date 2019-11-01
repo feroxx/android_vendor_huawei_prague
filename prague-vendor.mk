@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/lib,$(TARGET_COPY_OUT_SYSTEM)/lib) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/lib64,$(TARGET_COPY_OUT_SYSTEM)/lib64) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/bin,$(TARGET_COPY_OUT_VENDOR)/bin) \
+	$(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/bin/hw,$(TARGET_COPY_OUT_VENDOR)/bin/hw) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/etc,$(TARGET_COPY_OUT_VENDOR)/etc) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/etc/init,$(TARGET_COPY_OUT_VENDOR)/etc/init) \
     $(call find-copy-subdir-files,*,vendor/huawei/prague/proprietary/vendor/etc/tp_test_parameters,$(TARGET_COPY_OUT_VENDOR)/etc/tp_test_parameters) \
